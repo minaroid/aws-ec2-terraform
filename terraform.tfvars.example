@@ -1,0 +1,4 @@
+region = "us-east-1"
+availability_zones = ["us-east-1a"]
+// you can generate one using 'ssh-keygen' command.
+ssh_public_key_location = "~/.ssh/id_rsa.pub"
