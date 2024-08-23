@@ -11,7 +11,7 @@ terraform {
   required_version = ">= 1.2.0"
 
   backend "s3" {
-    bucket = "terraform-tod-bucket"
+    bucket = "terraform-myapp-bucket-500"
     key = "myapp/state.tfstate"
     region = "us-east-1"
   }

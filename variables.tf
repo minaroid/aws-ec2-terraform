@@ -3,11 +3,6 @@ variable "region" {
   default = ""
 }
 
-variable "public_subnets_ids" {
-  type    = list(string)
-  default = []
-}
-
 variable "availability_zones" {
   type    = list(string)
   default = []
@@ -17,3 +12,7 @@ variable "ssh_public_key_location" {
   default = ""
 }
 
+variable "vpc_cidr_blocks" {
+  type    = list(string)
+  default = []
+}
